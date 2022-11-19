@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px; 
+    font-size: 1em;
+}
+
+:root {
+    --fonte1:'Pacifico', cursive;
+    --fonte2: 'Roboto', sans-serif;
+}
+
+html, body {
+    min-height: 100vh;
+    font-family: var(--fonte2);
+    font-size: 1em;
+}
+
+b {
+    padding-left: 18%;
+}
+
+p {
+    padding-bottom: 40px;
+    padding-left: 18%;
+}
+
+footer {
+    background-color: rgb(17, 17, 32);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--fonte1);
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(0, 102, 255);
+    font-weight: bolder;
+}
