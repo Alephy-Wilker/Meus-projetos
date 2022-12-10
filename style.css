@@ -12,6 +12,31 @@
     --fonte3:'Roboto Mono', monospace;
 }
 
+.cabeçalhonav {
+    background-image: linear-gradient(to bottom, #C97F5A, #6F3B2B);
+    height: 280px;
+    padding-top: 20px;
+}
+
+.imagemhungria {
+    position: absolute;
+}
+
+h6 {
+    padding-left: 344px;
+    padding-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: white;
+}
+
+#nomemusica {
+    padding-top:50px;
+}
+
 html, body {
     min-height: 100vh;
     font-family: var(--fonte3);
